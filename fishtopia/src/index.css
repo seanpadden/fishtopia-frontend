@@ -5,9 +5,45 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.pinimg.com/originals/21/1b/bd/211bbdde22535b6450b918ed9adf9838.gif);
+  color: white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1{
+  text-align: center;
+  padding: 2rem;
+}
+
+h2{
+  text-align: left;
+  padding: 5px;
+}
+
+.fish-card {
+  display: flex;
+  padding: 5px;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-image {
+  display: flex;
+  flex-direction: row;
+  width:  200px;
+  height: 200px;
+  /* background-position: 50% 50%; */
+  /* background-repeat:   no-repeat; */
+  /* background-size:     cover; */
+}
+
+.fish-form {
+  justify-content: right;
 }
